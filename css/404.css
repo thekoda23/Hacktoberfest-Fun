@@ -1,0 +1,39 @@
+.background {
+    background-image: url("../images/404/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.background::after {
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.background h1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    color: white;
+    z-index: 3;
+    text-shadow: 3px 3px black;
+    font-size: 3em;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.background img {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
