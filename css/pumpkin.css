@@ -1,0 +1,57 @@
+.pumpkin {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50px, -40px);
+}
+
+.stem {
+    position: relative;
+    width: 30px;
+    height: 80px;
+    background-color: chocolate;
+    outline: 2px solid black;
+    top: 40px;
+    z-index: 0;
+    right: -40px;
+}
+
+.circle {
+    background-color: orange;
+    width: 150px;
+    height: 140px;
+    outline: 2px solid black;
+    border-radius: 50%;
+    transform: skewX(-5deg);
+}
+
+.eye1 {
+    background-color: black;
+    position: absolute;
+    z-index: 3;
+    bottom: 70px;
+    width: 20px;
+    height: 20px;
+    left: 30px;
+}
+
+.eye2 {
+    background-color: black;
+    position: absolute;
+    z-index: 3;
+    bottom: 80px;
+    width: 20px;
+    height: 20px;
+    right: 40px;
+}
+
+.smile {
+    background-color: black;
+    position: absolute;
+    z-index: 3;
+    bottom: 30px;
+    width: 60px;
+    height: 20px;
+    right: 40px;
+    transform: skew(30deg, 0deg);
+}
